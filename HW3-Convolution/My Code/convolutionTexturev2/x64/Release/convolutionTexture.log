@@ -1,0 +1,13 @@
+﻿  Compiling CUDA source file 2DConvolution.cu...
+  
+  C:\Users\rndmp\OneDrive - stevens.edu\5. Senior, 2021-22\GPU & Multicore Programming (CPE 810A)\HW3-Convolution\My Code\convolutionTexturev2>"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\bin\nvcc.exe" -gencode=arch=compute_52,code=\"sm_52,compute_52\" --use-local-env -ccbin "C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\VC\Tools\MSVC\14.29.30133\bin\HostX86\x64" -x cu   -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include" -I"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v11.4\include"     --keep-dir x64\Release  -maxrregcount=0  --machine 64 --compile -cudart static    -DWIN32 -DWIN64 -DNDEBUG -D_CONSOLE -D_MBCS -Xcompiler "/EHsc /W3 /nologo /O2 /Fdx64\Release\vc142.pdb /FS   /MD " -o x64\Release\2DConvolution.cu.obj "C:\Users\rndmp\OneDrive - stevens.edu\5. Senior, 2021-22\GPU & Multicore Programming (CPE 810A)\HW3-Convolution\My Code\convolutionTexturev2\2DConvolution.cu" 
+c:\users\rndmp\onedrive - stevens.edu\5. senior, 2021-22\gpu & multicore programming (cpe 810a)\hw3-convolution\my code\convolutiontexturev2\2dconvolution.cu(148): warning : variable "x_col_bytes" was declared but never referenced
+  
+c:\users\rndmp\onedrive - stevens.edu\5. senior, 2021-22\gpu & multicore programming (cpe 810a)\hw3-convolution\my code\convolutiontexturev2\2dconvolution.cu(149): warning : variable "y_row_bytes" was declared but never referenced
+  
+  2dconvolution.cu
+c:\users\rndmp\onedrive - stevens.edu\5. senior, 2021-22\gpu & multicore programming (cpe 810a)\hw3-convolution\my code\convolutiontexturev2\2dconvolution.cu(212): warning C4018: '<': signed/unsigned mismatch
+c:\users\rndmp\onedrive - stevens.edu\5. senior, 2021-22\gpu & multicore programming (cpe 810a)\hw3-convolution\my code\convolutiontexturev2\2dconvolution.cu(229): warning C4018: '<': signed/unsigned mismatch
+     Creating library C:\Users\rndmp\OneDrive - stevens.edu\5. Senior, 2021-22\GPU & Multicore Programming (CPE 810A)\HW3-Convolution\My Code\convolutionTexturev2\x64\Release\CudaConvolution.lib and object C:\Users\rndmp\OneDrive - stevens.edu\5. Senior, 2021-22\GPU & Multicore Programming (CPE 810A)\HW3-Convolution\My Code\convolutionTexturev2\x64\Release\CudaConvolution.exp
+  LINK : /LTCG specified but no code generation required; remove /LTCG from the link command line to improve linker performance
+  convolutionTexture.vcxproj -> C:\Users\rndmp\OneDrive - stevens.edu\5. Senior, 2021-22\GPU & Multicore Programming (CPE 810A)\HW3-Convolution\My Code\convolutionTexturev2\x64\Release\CudaConvolution.exe
